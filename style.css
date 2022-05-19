@@ -184,6 +184,9 @@ p {
   margin-right: 50px;
   cursor: pointer;
   color: var(--primary-color);
+  /* display: grid;
+  grid-column-start: span 3; */
+
 }
 
 .fa-brands:hover {
@@ -277,5 +280,13 @@ input:checked+.slider::before {
 
   nav {
     font-size: 1.2rem;
+    display: grid;
+    grid-row-start: 1;
+    grid-row-end: 3;
   }
+
+  a:hover {
+    border-bottom: none;
+  }
+
 }
